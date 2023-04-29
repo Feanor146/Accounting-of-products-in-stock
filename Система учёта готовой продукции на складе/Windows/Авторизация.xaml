@@ -1,0 +1,18 @@
+﻿<Window x:Class="Система_учёта_готовой_продукции_на_складе.Windows.Авторизация"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Система_учёта_готовой_продукции_на_складе.Windows"
+        mc:Ignorable="d"
+        Title="Авторизация" WindowState="Maximized" Background="Aqua" Height="1080" Width="1920">
+    <Grid>
+        <Label FontSize="72" Content="Авторизация" HorizontalAlignment="Center" Margin="0,150,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="54" Content="Логин" HorizontalAlignment="Left" Margin="250,350,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="54" Content="Пароль" HorizontalAlignment="Left" Margin="250,470,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="Login" Background="Lavender" FontSize="32" HorizontalAlignment="Left" Margin="680,370,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="500"/>
+        <PasswordBox Name="Password" Background="Lavender" FontSize="32" HorizontalAlignment="Left" Margin="680,489,0,0"  VerticalAlignment="Top" Width="500"/>
+        <Button Click="Autorization_Click" Name="Autprization" Background="ForestGreen" FontSize="64" Content="Авторизация" HorizontalAlignment="Left" Margin="700,680,0,0" VerticalAlignment="Top"  Width="500"/>
+        <Button Click="Registration_Click" Name="Registration" Background="ForestGreen" FontSize="64" Content="Регистрация" HorizontalAlignment="Left" Margin="700,820,0,0" VerticalAlignment="Top" Width="500"/>
+    </Grid>
+</Window>
